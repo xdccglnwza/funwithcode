@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    background-image: url("https://i.guim.co.uk/img/media/2e15ce82f161984268de408c1be365b4a9c0512d/0_1221_3456_2765/master/3456.jpg?width=465&dpr=1&s=none&crop=none");
+}
+
+.image2 {
+    background-image: url("https://healthtopics.vetmed.ucdavis.edu/sites/g/files/dgvnsk6721/files/styles/sf_landscape_16x9/public/images/article/dog-862937_1920.jpg?h=2a668c17&itok=o1JNHRwL");
+}
+
+.message span {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px 30px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+
+.black-block {
+    height: 400px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    text-align: center;
+}
+

@@ -1,0 +1,25 @@
+th {
+  width: 200px;
+  height: 200px;
+  text-align: left;
+}
+th:first-child {
+  background: #79dd5a;
+}
+th:last-child {
+  background: #ecf87f;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    /* border-collapse: collapse; */
+    
+}
+

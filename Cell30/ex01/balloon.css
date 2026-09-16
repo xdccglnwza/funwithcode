@@ -1,0 +1,14 @@
+#circle{
+    /* width: 200px; */
+    height: auto;
+    min-height: 200px;
+    background-color: red;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.line{
+    width: 10px;
+    height: 200px;
+    background-color: black;
+}
